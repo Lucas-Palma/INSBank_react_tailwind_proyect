@@ -1,7 +1,7 @@
 import { quotes } from '../assets'
 
 const FeedbackCard = ({ content, name, title, img}) => (
-  <div className='flex flex-1 justify-between flex-col px-10 py-12 rounded-[20px] min-w-[300px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card'>
+  <div className='flex flex-1 justify-between flex-col px-10 py-12 rounded-[20px] min-w-[300px] max-w-[400px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card'>
     <img src={quotes} alt="double_quotes" className='w-[42px] h-[27px] object-contain' />
     <p className='font-poppins font-normal text-[18px] leading-[32px] text-white my-10'>{content}</p>
 
@@ -12,9 +12,7 @@ const FeedbackCard = ({ content, name, title, img}) => (
         <p className='font-poppins font-normal text-[16px] leading-[24px] text-dimWhite'>{title}</p>
 
       </div>
-
     </div>
-
   </div>
 )
 

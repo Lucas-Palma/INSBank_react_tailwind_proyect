@@ -107,6 +107,10 @@
   }
 }
 
+.feature-card {
+  transition: all 1.45s ease;
+}
+
 .feature-card:hover {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
@@ -117,6 +121,7 @@
 }
 
 .feedback-card {
+  transition: all .45s ease;
   background: transparent;
 }
 
@@ -137,4 +142,60 @@
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+.getstarted__animation {
+  transition: all .45s ease;
+}
+
+.getstarted__animation:hover {
+  transform: scale(1.1);
+}
+
+.stat {
+  transition: all .45s ease;
+}
+
+.stat:hover {
+  transform: scale(1.1) translateY(5px);
+}
+
+.button {
+  transition: all .45s ease;
+}
+
+.button:hover{
+  transform: translateY(5px);
+}
+
+.button2 {
+  transition: all .3s ease;
+}
+
+.button2:hover {
+  transform: scale(1.1);
+}
+
+.client {
+  transition: all .3s ease;
+}
+
+.client:hover {
+  transform: scale(1.1);
+}
+
+.cta {
+  transition: all .45s ease;
+}
+
+.cta:hover {
+  transform: scale(1.02);
+}
+
+.social-icon {
+  transition: all .3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
 }
