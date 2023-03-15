@@ -1,4 +1,5 @@
-import React from 'react'
+import styles from "../styles";
+import Button from "./Button";
 
 const CTA = () => {
   return (
