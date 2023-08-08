@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/hoobank_react_tailwind_proyect/',
+  base: '/insbank_react_tailwind_proyect/',
 });
