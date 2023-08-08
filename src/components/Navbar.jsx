@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
-      <h1 className='text-[2rem] text-white font-poppins pl-2'>
+      <h1 className='text-[1.75rem] text-white font-poppins pl-2'>
         INS<span className=' text-secondary'>Bank</span>
       </h1>
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
